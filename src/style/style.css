@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.login-form {
+    height: 100vh;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    color: black;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("https://images.unsplash.com/photo-1619971190275-216edeb0777a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"), #000;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    max-width: 400px !important;
+    width: 100%;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.0);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(2px);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.input-field {
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 15px 0;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+    font-weight: 300;
+}
+
+.input-field input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+}
+
+.forget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 35px 0;
+    color: #fff;
+}
+
+#remember {
+    accent-color: #fff;
+}
+
+.forget label {
+    display: flex;
+    align-items: center;
+}
+
+.forget label p {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    font-size: 13px !important;
+    text-decoration: underline !important;
+    transition: all 0.2s;
+}
+
+.forgot-password:hover {
+    color: #fe9a34 !important;
+}
+
+
+.wrapper a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.register {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+a {
+    font-weight: 200;
+}
+
+p {
+    font-weight: 300;
+}
+
+.span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fe9a34 !important;
+    transition: ease-in .3s;
+    line-height: 15px;
+    transform: scale(0);
+}
+
+.span:hover {
+    font-size: 15px;
+    color: #f48d26 !important;
+}
+
+.card-header h2 {
+    color: #2a517b;
+    font-weight: 600;
+}
+
+.register p {
+    font-size: 13px;
+
+}

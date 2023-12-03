@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "Dina",
+      "name": "Dina Oktaviana",
+      "password": "1234",
+      "email": "dina@gmail.com"
+    },
+    {
+      "id": "Dina02",
+      "name": "Dina Oktaviana",
+      "password": "12345",
+      "email": "dinaokta@gmail.cm"
+    },
+    {
+      "id": "test2",
+      "name": "test",
+      "password": "test",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": "dina05",
+      "name": "DinaOktaviana05",
+      "password": "dinaokta05",
+      "email": "dina05@gmail.com"
+    }
+  ]
+}
